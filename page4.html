@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>
+			Scheda Madre.4
+		</title>
+	</head>
+	<p align="center"><font color="red" size="5" face "arial" ><b><big>Componenti di una scheda madre </big></b></p></font>
+		<body>
+			<p
+				align="center"><font color="red" >CPU Socket :</font> <br>
+				<p>E' uno zoccolo ZIF (Zero Insertion Force) che accoglie la CPU. Nelle schede embedded (o in quelle vecchie e molto economiche) e' assente, e il processore e' saldato direttamente sullo stampato. Lo zoccolo (socket) puo' essere di tipo PGA o LGA. Il primo tipo PGA (sigla di Pin Grid Array) e' quello adottato per molti processori AMD (Socket A, 754, 939 e AM2) e dai primi processori moderni Intel (PIII, Celeron). Nel caso di processori di tipo PGA, i pin di interconnessione tra la CPU stessa e i contatti presenti sul socket risiedono sulla parte inferiore della CPU. Se il socket e' di tipo LGA (ovvero Land Grid Array) i piedini (pin) risiedono direttamente sul socket stesso anziche' sulla CPU ed e' necessaria una piastra di caricamento per tenere in posizione la CPU dato che, a differenza delle CPU PGA, non e' tenuta in posizione dai piedini che vanno ad incastrarsi nel socket. La soluzione LGA e' adottata da diverso tempo da Intel con molti dei suoi processori Pentium IV e ora con la serie Core, entrambi interfacciati con 775 pin. A differenza di Intel, la rivale AMD ha adottato solo ultimamente soluzioni LGA con l'avvento dei processori Athlon FX serie 7x interfacciati con 1207 pin alla scheda madre.
+				</p>
+				
+				<p align="center"><font color="red" >La ROM :</font> <br>
+				<p>(Puo' essere PROM, EEPROM, flash o altro) che contiene il BIOS della scheda madre; e' un tipo di firmware dalle funzionalita' molto limitate. Le sue funzioni sono essenzialmente tre: eseguire il controllo dell'hardware all'accensione (il POST, Power On Self Test), caricare il sistema operativo e mettere a disposizione di questi alcune primitive (routine software) per il controllo dell'hardware stesso.
+				</p>
+				
+				<p align="center"><font color="red" >Chipset :</font> <br>
+				<p>L'insieme di chip che si occupano di smistare e dirigere il traffico di informazioni passante attraverso il Bus di sistema, fra CPU, RAM e controller delle periferiche di input/output (come Floppy disk, Hard disk ecc.).
+				</p>
+				
+				<p align="center"><font color="red" >Northbridge :</font> <br>
+				<p>Un chip del chipset che connette il processore con la memoria RAM e con i bus di espansione principali (PCI, PCI express e AGP); i modelli piu' recenti incorporano anche le interfacce ATA e/o SATA per gli hard disk, che sono i componenti piu' critici per le prestazioni di un personal computer. E' l'elemento piu' importante del chipset e il suo buon funzionamento e' cruciale per la stabilita' e la velocita' della macchina. Le CPU AMD a 64 bit, integrando al loro interno il controller della RAM a cui quindi si collegano direttamente, hanno bisogno di un north bridge meno complesso e costoso.
+				</p>
+				
+				<p align="center"><font color="red" >Southbridge :</font> <br>
+				<p>E' il secondo componente del chipset e il suo compito e' quello di gestire tutte le interfacce a bassa velocita': e' connesso al north bridge tramite il bus di espansione e gestisce le porte seriali e parallele, l'interfaccia per la tastiera e il mouse, l'interfaccia Ethernet, le porte USB e il bus SMB.
+				</p>
+				
+				<p align="center"><font color="red" >Una batteria  :</font> <br>
+				<p>Una batteria al litio in grado di alimentare per anni l'orologio di sistema e una piccola quantita' di memoria RAM in tecnologia CMOS in cui il BIOS memorizza alcuni parametri di configurazione dell'hardware.
+				</p>
+				
+				<p align="center"><font color="red" >Gli slot d'alloggiamento della Memoria RAM (Random Access Memory)  : </font> <br>
+				<p>Che possono essere di diversi tipi quanti sono i tipi di RAM diffusi dalle industrie sin dai primi anni ottanta. Attualmente (2006) le schede madri in commercio adottano slot DDRAM, evoluzione delle precedenti SDRAM, che a loro volta erano derivate dalle SIMM e SIPP presenti sulle macchine che montavano processori compatibili con l'80386
+				</p>
+				
+				<p align="center"><font color="red" >Il bus di espansione :</font> <br>
+				<p> Si tratta di un collegamento dati generico punto-multipunto, progettato per permettere di collegare alla scheda madre delle altre schede di espansione alloggiate su connettori (slot), che ne estendono le capacita'. Attualmente il tipo di bus più diffuso e' il bus PCI, destinato nel tempo a lasciare strada alla sua estensione PCI Express, piu' veloce e piu' semplice elettricamente. In linea di principio ad un bus puo' essere collegato hardware di ogni tipo: schede video aggiuntive, schede audio professionali, schede acquisizione dati, unita' di calcolo specializzate, coprocessori: nella pratica si ricorre ad una scheda di espansione su slot interno solo per hardware che ha bisogno di una collaborazione estremamente stretta con la CPU o con la memoria RAM; per le espansioni hardware meno critiche si sfruttano le connessioni "lente" (USB, seriali ecc.). Fa parte del bus PCI anche lo slot AGP, dedicato alla scheda video, che e' uno slot PCI dotato di alcuni comandi aggiuntivi separati e di una trasmissione dati privilegiata; anche le interfacce AGP sono destinate ad essere sostituite dagli slot PCI Express, perfettamente in grado di fare da ponte fra la scheda grafica e il resto del sistema.
+				</p>
+				
+				
+				
+			
+			
+			
+			</p>
+		</body>
+	
+</html>
